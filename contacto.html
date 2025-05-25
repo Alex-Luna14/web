@@ -1,0 +1,35 @@
+<!-- contacto.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto | Pasión en Movimiento</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #eaf6ff; color: #333; padding: 20px; }
+        form { background-color: #d0f0fd; padding: 20px; max-width: 500px; margin: auto; border-radius: 10px; }
+        input, textarea { width: 100%; padding: 10px; margin-bottom: 10px; }
+        nav a { margin: 10px; color: #007acc; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="cursos.html">Cursos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <h1>Contáctanos</h1>
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
